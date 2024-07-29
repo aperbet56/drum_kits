@@ -1,0 +1,96 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd700;
+}
+  
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1, footer span {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+  
+.container {
+    text-align: center;
+}
+  
+.btn {
+    padding: 30px 50px;
+    background-color: #ffffff;
+    margin: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: cursive;
+    text-transform: capitalize;
+    min-width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-image: url("images/tom.png");
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: color 0.3s ease-in-out,
+                transform 0.3s ease-in-out,
+                background-size 0.3s ease-in-out;
+}
+  
+.btn:hover {
+    color: #ffd700;
+    transform: scale(1.03);
+}
+  
+.btn:active {
+    background-size: 105%;
+}
+
+footer span {
+    font-size: 30px;
+}
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 472px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    footer span {
+        font-size: 20px;
+    }
+}
