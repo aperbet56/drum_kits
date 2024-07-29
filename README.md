@@ -2,7 +2,7 @@
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/drum_kits/
 
 ## Développez avec
 
