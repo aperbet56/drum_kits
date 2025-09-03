@@ -1,4 +1,8 @@
-## DRUM KITS
+## DRUM KITS 🥁
+
+## Le challenge
+
+Cette application web vous permet de créer votre propre musique avec tous les rythmes présents. Cliquez sur les images des instruments et écoutez les rythmes.
 
 ## Démonstration
 
