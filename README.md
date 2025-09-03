@@ -17,5 +17,7 @@ Lien vers le projet : https://aperbet56.github.io/drum_kits/
 - Utilisation d'un normaliseur : le fichier normalize.css
 - Desktop first
 - Page web responsive
+- Commentaires HTML
+- Commentaires CSS
 - JavaScript
 - Code JavaScript commenté
